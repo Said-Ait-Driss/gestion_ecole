@@ -1,0 +1,14 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "said ait driss",
+            "email": "saidaitdrissofficial@gmail.com",
+            "homepage": "https://saidaitdriss.me",
+            "role": "Developer"
+        }
+    ]
+    
+}

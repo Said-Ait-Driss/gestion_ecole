@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /ecole/
+ 
+
+RewriteCond %{THE_REQUEST} //([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/*).*)$ public/ [L,NC]
+
